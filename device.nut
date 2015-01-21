@@ -8,7 +8,7 @@ imp.setpowersave(true);
 
 function loop() {
     local event = {
-        eventType = "ExampleEvent",
+        eventType = "ExampleEvent", // Required
         platform  = "ElectricImp",
         cats      = 100,
     };
