@@ -7,7 +7,7 @@ Simply merge the code from agent.nut into your Agent and ensure your account num
 
     // Construct an event...
     local event = {
-        eventType = "ExampleEvent",
+        eventType = "ExampleEvent", // Required
         platform  = "ElectricImp",
         cats      = 100,
     };
